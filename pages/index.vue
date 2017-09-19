@@ -12,6 +12,16 @@ import Slide from '~/components/slide.vue'
 export default {
   components: {
     Slide
+  },
+  methods: {
+    setSlides () {
+      return this.$children.map(el => el._props.id)
+    }
+  },
+  mounted () {
+    this.$nextTick(() => {
+      this.$store.commit('setSlide', this.setSlides())
+    })
   }
 }
 </script>

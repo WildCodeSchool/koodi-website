@@ -1,5 +1,5 @@
 <template lang="pug">
-  section(:id="id")
+  section(:id="id", v-show="isVisble")
     slot
 </template>
 
@@ -8,7 +8,12 @@
     props: {
       id: {
         type: String,
-        required: false
+        required: true
+      }
+    },
+    computed: {
+      isVisble () {
+        return this.$store.state.slides[this.$store.state.currentSlideIndex] === this.id
       }
     }
   }
