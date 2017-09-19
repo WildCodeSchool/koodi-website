@@ -12,6 +12,12 @@ const createStore = () => {
       },
       toSlide (state, slideIndex) {
         state.currentSlideIndex = slideIndex
+      },
+      nextSlide (state) {
+        state.currentSlideIndex++
+      },
+      prevSlide (state) {
+        state.currentSlideIndex--
       }
     }
   })
