@@ -26,7 +26,7 @@
     align-items: center;
     display: flex;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     right: 30px;
   }
   li.active {

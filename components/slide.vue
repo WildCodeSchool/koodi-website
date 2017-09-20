@@ -28,14 +28,15 @@
 <style scoped>
   section {
     height: 100vh;
+    width: 100vw;
     display: flex;
   }
 
   .slide-top-enter-active {
-    animation: slideTopIn 1s;
+    animation: slideTopIn .8s ease;
   }
   .slide-top-leave-active {
-    animation: slideTopOut 1s;
+    animation: slideTopOut .8s ease;
     position: absolute;
     top: 0;
     left: 0;
@@ -52,10 +53,10 @@
     to { transform: translateY(100%); }
   }
   .slide-bottom-enter-active {
-    animation: slideBottomIn .7s ease;
+    animation: slideBottomIn .8s ease;
   }
   .slide-bottom-leave-active {
-    animation: slideBottomOut .7s ease;
+    animation: slideBottomOut .8s ease;
     position: absolute;
     top: 0;
     left: 0;

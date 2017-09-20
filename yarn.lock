@@ -5404,6 +5404,12 @@ vue-router@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-2.7.0.tgz#16d424493aa51c3c8cce8b7c7210ea4c3a89aff1"
 
+vue-scroll@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/vue-scroll/-/vue-scroll-2.0.3.tgz#746dceee8d5cebdd98b6d3d9ceaddf6755f4aa00"
+  dependencies:
+    vue "^2.1.4"
+
 vue-server-renderer@~2.4.2:
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/vue-server-renderer/-/vue-server-renderer-2.4.4.tgz#bd59cf4e42dfaf2c9e388af8837b5420dd51360d"
@@ -5435,7 +5441,7 @@ vue-template-es2015-compiler@^1.5.3:
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.5.3.tgz#22787de4e37ebd9339b74223bc467d1adee30545"
 
-vue@~2.4.2:
+vue@^2.1.4, vue@~2.4.2:
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.4.4.tgz#ea9550b96a71465fd2b8b17b61673b3561861789"
 
